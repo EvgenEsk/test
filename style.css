@@ -1,0 +1,57 @@
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+input[type="email"] {
+    margin: 10px 0px;
+    padding: 10px;
+    height: 50px;
+    width: 50%;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D5D9D9;
+    box-sizing: border-box;
+}
+
+/*кнопка далее*/
+.button {
+    display: inline-block;
+    padding-top: 14px;
+    width: 100%;
+    height: 35px;
+    background: #FF9E67;
+    text-decoration: none; /* Убираем подчёркивание */
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #fa752d;
+    color: white;
+}
+
+/*кнопка назад*/
+.button_beck {
+    display: inline-block;
+    padding-top: 14px;
+    width: 80px;
+    height: 35px;
+    background: #47627F;
+    text-decoration: none; /* Убираем подчёркивание */
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.button_beck:hover {
+    background: #8796a5;
+    color: white;
+}
